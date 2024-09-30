@@ -2,7 +2,17 @@ import React from 'react';
 import './Login.css';
 import plant from '../../assets/plant.jpg'
 import Eviden from '../../assets/Eviden.jpg'
+import { useNavigate } from 'react-router-dom';
 const Login = () => {
+    const navigate = useNavigate();
+
+    const handleLogin = (e) => {
+      e.preventDefault();
+      // Add login logic here (authentication, validation, etc.)
+      // Navigate to the dashboard after login
+      navigate('/dashboard');
+    };
+
     return (
 
         <div className="login-page">
