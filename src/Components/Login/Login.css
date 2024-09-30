@@ -1,16 +1,15 @@
-/* Full Page Wrapper */
 .login-page {
     display: flex;
     height: 100vh;
-    /* Full vertical height */
+
 }
 
-/* Left Side: Image */
+
 .login-image {
     flex: 2;
-    /* Takes up half the screen */
+
     background-color: red;
-    /* Fallback color in case the image fails to load */
+
     width: 100%;
 }
 
@@ -18,34 +17,34 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* Makes sure the image covers the area fully */
+
     margin-right: 100px;
 }
 
-/* Right Side: Login Form */
+
 .login-container {
     flex: 1;
-    /* Takes up the other half of the screen */
+
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* Vertically center the form */
+
     align-items: center;
-    /* Horizontally center the form */
+
     padding: 20px;
     background-color: #fff;
-    /* Background color for the form side */
+
 }
 
-/* Form Styling */
+
 form {
     width: 80%;
-    /* Adjust form width */
+
     max-width: 400px;
-    /* Max width to prevent form from becoming too wide */
+
 }
 
-/* Input fields styling */
+
 input {
     width: 100%;
     padding: 12px;
@@ -56,7 +55,7 @@ input {
     font-size: 16px;
 }
 
-/* Button styling */
+
 button {
     width: 105%;
     padding: 12px;
@@ -69,7 +68,7 @@ button {
     font-size: 16px;
 }
 
-/* Button hover effect */
+
 button:hover {
     background-color: #45a049;
 }
@@ -87,50 +86,50 @@ button:hover {
 }
 
 
-/* Forgot Password styling */
+
 .forgot-password {
     text-align: center;
     margin-top: 15px;
-    /* Add space between button and text */
+
 }
 
 .forgot-password a {
     text-decoration: underline;
-    /* Underline the text */
+
     color: black;
-    /* Change the color to blue */
+
     cursor: pointer;
 }
 
 .forgot-password a:hover {
     color: black;
-    /* Darker blue on hover */
+
 }
 
 .image-text {
     position: absolute;
     bottom: 20px;
-    /* Distance from the bottom */
+
     left: 20px;
-    /* Distance from the left */
+
     color: white;
-    /* White text */
+
     font-size: 24px;
 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    /* Shadow for readability */
+
 }
 
 .image-textt {
 
     bottom: -20px;
-    /* Distance from the bottom */
+
     left: 20px;
-    /* Distance from the left */
+
     color: white;
-    /* White text */
+
     font-size: x-small;
 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    /* Shadow for readability */
+
 }

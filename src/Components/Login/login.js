@@ -8,8 +8,7 @@ const Login = () => {
 
     const handleLogin = (e) => {
       e.preventDefault();
-      // Add login logic here (authentication, validation, etc.)
-      // Navigate to the dashboard after login
+      
       navigate('/dashboard');
     };
 

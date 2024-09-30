@@ -70,41 +70,41 @@
     flex-direction: column;
   }
   
-  /* Top navbar (box-like structure at the top of the main content) */
+  
   .top-navbar {
     display: flex;
-    justify-content: space-between; /* Pushes content to left and right */
+    justify-content: space-between; 
     align-items: center;
     background-color: white;
     padding: 15px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for a box effect */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
     
-    margin-bottom: 20px; /* Space below the navbar */
+    margin-bottom: 20px; 
   }
   .app-name {
     display: flex;
-    align-items: center; /* Center items vertically */
+    align-items: center; 
   }
   
   .app-name .app-logo {
-    width: 40px; /* Adjust the logo size */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Space between logo and application name */
-  }
-  /* Application name (left side of the navbar) */
-  .app-name h2 {
-    margin: 0;
-    color: #34495e; /* Dark grey color */
+    width: 40px; 
+    height: auto; 
+    margin-right: 10px;
   }
   
-  /* User info (right side of the navbar) */
+  .app-name h2 {
+    margin: 0;
+    color: #34495e; 
+  }
+  
+ 
   .user-info {
     display: flex;
     align-items: center;
   }
   
   .user-name {
-    margin-right: 40px; /* Space between user name and language selector */
+    margin-right: 40px; 
     font-size: 16px;
     color: #34495e;
   }
@@ -117,7 +117,7 @@
   }
   .nav-logo {
     width: 20px; 
-    height: auto; /* Maintain aspect ratio */
+    height: auto;
     margin-right: 150px;
     margin-bottom: -25px;
   }

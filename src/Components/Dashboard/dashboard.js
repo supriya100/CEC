@@ -1,5 +1,5 @@
 import React from 'react';
-import './dashboard.css'; // We'll style the component here
+import './dashboard.css'; 
 import Eviden from '../../assets/Eviden.jpg'
 import application  from '../../assets/application.jpg'
 import dashboard from '../../assets/dashboard.jpg'
@@ -9,14 +9,14 @@ import inventory from '../../assets/inventory.jpg'
 const Dashboard = () => {
   return (
     <div className="dashboard-container">
-      {/* Sidebar */}
+     
       <div className="sidebar">
-        {/* Logo */}
+       
         <div className="logo">
           <img src={Eviden} alt="Logo" />
         </div>
 
-        {/* Navigation Options */}
+        
         <nav className="nav-options">
           <ul>
             <li>
@@ -57,7 +57,7 @@ const Dashboard = () => {
           </div>
         </div>
 
-        {/* Main Dashboard Content */}
+        {/*Main Dashboard Content*/}
        
       </div>
     </div>
