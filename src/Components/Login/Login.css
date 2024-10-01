@@ -81,7 +81,7 @@ button:hover {
 
 .aws-icons img {
 
-    height: 80px;
+    height: 90px;
 
 }
 
@@ -132,4 +132,15 @@ button:hover {
 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
+}
+
+.text {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+h2 {
+    margin-bottom: 20px;
+    margin-left: 10px;
 }

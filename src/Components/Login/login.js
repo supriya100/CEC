@@ -34,10 +34,10 @@ const Login = () => {
 
 
             <div className="login-container">
-                <h3>Welcome to Carbon <br />Calculator Application</h3>
+                <h2>Welcome to Carbon <br />Calculator Application</h2>
                 <form>
                     <div>
-                        <p>Please login to your account</p>
+                        <p className='text'>Please login to your account</p>
                         <input type="text" id="username" name="username" placeholder="Username" />
                     </div>
                     <div>
